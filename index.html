@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+            background-image: url('logoh.jpg'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la ruta de tu imagen */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #444;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+
+    text-align: center;
+    padding: 100px;
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+        .carousel-container {
+    position: relative;
+    width: 1000px; /* Ancho del carrusel */
+    margin: 0 auto; /* Centra el carrusel en la página */
+    overflow: hidden;
+}
+
+.carousel-slides {
+    display: flex;
+    animation: carousel 30s linear infinite; /* 9 segundos para cambiar de diapositiva */
+}
+
+.carousel-slide {
+    flex: 0 0 100%;
+    transition: transform 30s;
+}
+
+img {
+    max-width: 100%;
+    height: 400;
+    width: 300;
+}
+
+@keyframes carousel {
+    0% {
+        transform: translateX(0);
+    }
+    20% {
+        transform: translateX(-100%);
+    }
+    40% {
+        transform: translateX(-200%);
+    }
+
+    60% {
+        transform: translateX(-300%);
+    }
+    80% {
+        transform: translateX(-400%);
+    }
+ 
+    100% {
+        transform: translateX(-100%);
+    }
+}
+</style>
+</head>
+
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Small Delights</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Small Delights</h1>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Nosotros</a></li>
+                <li><a href="producto.html">Productos</a></li>
+                <li><a href="sabores.html">Sabores</a></li>
+                <li><a href="contactanos.html">Contacto</a></li>
+                <li><a href="ubicación.html">Ubicación</a></li>
+            </ul>
+        </nav>
+    </header>
+    <center>
+        <h2>Bienvenido a Small Delights</h2>
+        <p>Los helados más deliciosos que jamás hayas probado.</p>
+</center>
+</body>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="carousel-container">
+        <div class="carousel-slides">
+            <div class="carousel-slide">
+                <img src="ca1.jpg" alt="Imagen 1">
+            </div>
+            <div class="carousel-slide">
+                <img src="ca2.jpg" alt="Imagen 2">
+            </div>
+            <div class="carousel-slide">
+                <img src="ca3.jpg" alt="Imagen 3">
+            </div>
+                        <div class="carousel-slide">
+                <img src="ca4.jpg" alt="Imagen 4">
+            </div>
+            <div class="carousel-slide">
+                <img src="ca5.jpg" alt="Imagen 5">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Small Delights</p>
+    </footer>
+</body>
+
+
+
